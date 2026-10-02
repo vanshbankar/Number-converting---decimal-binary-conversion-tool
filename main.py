@@ -19,7 +19,8 @@ while True:
   
     while True:
 
-      quotient=int(input("Enter The Number Do You Want to Binary of These: "))
+      usernum=int(input("Enter The Number Do You Want to Binary of These: "))
+      quotient=usernum
       reminder=""
       while True:
         if quotient==0:
@@ -32,7 +33,7 @@ while True:
           reminder=reminder+str(quotient%2)
           quotient=quotient//2
 
-      print(f"The Binary Of Your number:{quotient} is=",reminder[::-1])
+      print(f"The Binary Of Your number:{usernum} is=",reminder[::-1])
       user=input("Do you want more Binary??(y/n): ").lower()
       if user=="n":
         break
