@@ -103,4 +103,4 @@ Author
 
 Vanshkumar Bankar
 
-GitHub: "Vanshbankar"
+GitHub:https://github.com/vanshbankar/Number-converting---decimal-binary-conversion-tool.git
